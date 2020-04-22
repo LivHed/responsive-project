@@ -105,6 +105,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Header styles */
@@ -115,6 +116,9 @@ header {
 
 header .content-wrapper {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -123,10 +127,15 @@ header .content-wrapper {
 
 header nav {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 /*-------------- Mobile Styles - Homepage ----------------*/
@@ -135,12 +144,18 @@ header nav ul {
 
 .hero-area {
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row wrap;
 }
 
 /* Newsletter signup section */
 
 aside {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 aside .content-wrapper {
@@ -159,10 +174,16 @@ aside .content-wrapper {
 
 .features {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .features-items {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
 }
 
 .fontawesome-icon {
@@ -177,12 +198,18 @@ aside .content-wrapper {
 
 .reviews {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 /*-------------- Mobile Styles - About page ----------------*/
 
 .mission {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .mission-content {
@@ -195,6 +222,9 @@ aside .content-wrapper {
 
 .contact-section {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .contact-content {
@@ -205,10 +235,16 @@ aside .content-wrapper {
 
 .faq {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .faq-content {
