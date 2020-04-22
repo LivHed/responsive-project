@@ -125,13 +125,55 @@ header nav {
 
 /*-------------- Mobile Styles - Homepage ----------------*/
 
+/* Header and hero image */
+
 .hero-area {
 
 }
 
+/* Newsletter signup section */
+
 aside {
 
 }
+
+aside .content-wrapper {
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+/* Info about, features section */
+
+.features {
+
+}
+
+.features-items {
+
+}
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+/* Previous retreats section */
+
+.reviews {
+
+}
+
+
 
 /* Footer */
 
@@ -160,8 +202,10 @@ footer .content-wrapper {
 }
 
 .copyright {
-  
+
 }
+
+
 
 
 
