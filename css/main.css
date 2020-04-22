@@ -98,11 +98,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*------------- Base header - Footer Styles --------------*/
+/*------------- Base header - footer Styles --------------*/
 
 header, 
 footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Header styles */
@@ -112,7 +114,7 @@ header {
 }
 
 header .content-wrapper {
-
+  display: flex;
 }
 
 .header-divider {
@@ -120,7 +122,11 @@ header .content-wrapper {
 }
 
 header nav {
+  display: flex;
+}
 
+header nav ul {
+  display: flex;
 }
 
 /*-------------- Mobile Styles - Homepage ----------------*/
@@ -128,13 +134,13 @@ header nav {
 /* Header and hero image */
 
 .hero-area {
-
+  display: flex;
 }
 
 /* Newsletter signup section */
 
 aside {
-
+  display: flex;
 }
 
 aside .content-wrapper {
@@ -152,11 +158,11 @@ aside .content-wrapper {
 /* Info about, features section */
 
 .features {
-
+  display: flex;
 }
 
 .features-items {
-
+  display: flex;
 }
 
 .fontawesome-icon {
@@ -170,9 +176,44 @@ aside .content-wrapper {
 /* Previous retreats section */
 
 .reviews {
+  display: flex;
+}
+
+/*-------------- Mobile Styles - About page ----------------*/
+
+.mission {
+  display: flex;
+}
+
+.mission-content {
 
 }
 
+.map {
+
+}
+
+.contact-section {
+  display: flex;
+}
+
+.contact-content {
+
+}
+
+/*-------------- Mobile Styles - Faq page ----------------*/
+
+.faq {
+  display: flex;
+}
+
+.faq .content-wrapper {
+  display: flex;
+}
+
+.faq-content {
+
+}
 
 
 /* Footer */
@@ -189,16 +230,16 @@ footer .content-wrapper {
 
 }
 
-.contact {
+footer .contact {
 
 }
 
-.social {
-
+footer .social {
+  display: flex;
 }
 
-.social-icons {
-
+footer .social-icons {
+  display: flex;
 }
 
 .copyright {
