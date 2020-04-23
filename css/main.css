@@ -428,11 +428,12 @@ aside .content-wrapper {
 
  /* Header */
 header {
-  
+  justify-content: space-around;
 }
 
 header .content-wrapper {
   width: 100%;
+  justify-content: space-between;
 }
 
 header nav {
@@ -440,7 +441,7 @@ header nav {
 }
 
 header nav ul {
-  
+  justify-content: space-between;
 }
 
 .header-divider {
@@ -452,6 +453,9 @@ header nav ul {
  /* Aside */
 aside .content-wrapper {
    margin: 50px 0;
+   display: flex;
+   justify-content: center;
+   flex-flow: wrap;
 }
 
 aside .content-wrapper .form-description,
@@ -462,7 +466,11 @@ aside .content-wrapper .form {
 
   /* Features */
 .features article {
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column-wrap;
+  flex-basis: 50%;
 }
 
 .features .features-item-description {
@@ -471,7 +479,8 @@ aside .content-wrapper .form {
 
   /* Reviews */
 .reviews article {
-
+  display: flex;
+  justify-content: space-between;
 }
   
 .reviews article div {
@@ -485,7 +494,9 @@ footer .content-wrapper {
 }
   
 .footer-content {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer .contact {
@@ -499,7 +510,9 @@ footer .copyright {
 /*-----------------About Page----------------------*/
 
 .mission-content {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .mission-content p {
@@ -511,13 +524,15 @@ footer .copyright {
 }
 
 .contact-content {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /*-------------------FAQ Page---------------------*/
 
 .faq .content-wrapper {
-
+  justify-content: space-between;
 }
 
 .faq-content {
@@ -535,6 +550,14 @@ footer .copyright {
   /*Desktop styles here*/
 }
 
+
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
 
 /* ==========================================================================
    Print styles.
