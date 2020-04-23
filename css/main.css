@@ -297,17 +297,22 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
-.contact-content {
-
+.contact-content p {
+  margin: 0;
 }
 
 /*-------------- Mobile Styles - FAQ page ----------------*/
 
 .faq {
+  margin: 50px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
 }
 
 .faq .content-wrapper {
@@ -318,10 +323,8 @@ aside .content-wrapper {
 }
 
 .faq-content {
-
+  margin-bottom: 50px;
 }
-
-
 
 
 
