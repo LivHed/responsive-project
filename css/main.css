@@ -427,9 +427,8 @@ aside .content-wrapper {
 }
 
  /* Header */
-
 header {
-  width: 100%;
+  
 }
 
 header .content-wrapper {
@@ -441,7 +440,7 @@ header nav {
 }
 
 header nav ul {
-  width: 100%;
+  
 }
 
 .header-divider {
@@ -457,18 +456,17 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {        
-  width: 50%;  
+  width: 40%;  
   margin: 0;
 }
 
   /* Features */
-
 .features article {
-  width: 67%;
+  
 }
 
 .features .features-item-description {
-   width: 30%;
+   width: 50%;
 }
 
   /* Reviews */
@@ -477,12 +475,12 @@ aside .content-wrapper .form {
 }
   
 .reviews article div {
-  width: 50%;        
+  width: 49%;        
 }
 
   /* Footer */
 footer .content-wrapper {
-  width: 78%:
+  width: 65%:
   margin: 100px 0;
 }
   
@@ -495,7 +493,39 @@ footer .contact {
 }
 
 footer .copyright {
-  width: 30%;
+  width: 100%;
+}
+
+/*-----------------About Page----------------------*/
+
+.mission-content {
+
+}
+
+.mission-content p {
+  width: 45%;
+}
+
+.contact-section .content-wrapper h2 {
+  width: 80%;
+}
+
+.contact-content {
+
+}
+
+/*-------------------FAQ Page---------------------*/
+
+.faq .content-wrapper {
+
+}
+
+.faq-content {
+  flex-basis: 45%;
+}
+
+.faq h2 {
+  width: 100%;
 }
 
 }
