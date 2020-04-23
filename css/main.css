@@ -429,6 +429,7 @@ aside .content-wrapper {
  /* Header */
 header {
   justify-content: space-around;
+  padding: 33px 0;
 }
 
 header .content-wrapper {
@@ -513,6 +514,7 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px
 }
 
 .mission-content p {
