@@ -304,7 +304,6 @@ aside .content-wrapper {
 /*-------------- Mobile Styles - FAQ page ----------------*/
 
 .faq {
-  margin: 50px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -316,6 +315,7 @@ aside .content-wrapper {
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -418,7 +418,8 @@ aside .content-wrapper {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /*Tablet styles here*/
+ 
+  /*----------Tablet styles - Homepage ----------*/
 
  /* Base styles */
 .content-wrapper {
@@ -508,7 +509,7 @@ footer .copyright {
   width: 100%;
 }
 
-/*-----------------About Page----------------------*/
+/*---------------- Tablet Styles - About Page---------------------*/
 
 .mission-content {
   display: flex;
@@ -531,7 +532,7 @@ footer .copyright {
   align-items: flex-start;
 }
 
-/*-------------------FAQ Page---------------------*/
+/*-----------------Tablet Styles - FAQ Page---------------------*/
 
 .faq .content-wrapper {
   justify-content: space-between;
@@ -549,7 +550,9 @@ footer .copyright {
 
 
 @media only screen and (min-width: 1200px) {
-  /*Desktop styles here*/
+  
+  
+/*---------------Desktop styles - Homepage ---------------*/
 
 .content-wrapper {
     max-width: 960px;
@@ -584,7 +587,7 @@ aside .content-wrapper .form {
    width: 42%;
 }
 
-/*-------------------- About Page---------------------- */
+/*------------------ Desktop Styles - About Page-------------------- */
 
 .mission h2,
 .contact-section .content-wrapper h2 {
@@ -592,17 +595,17 @@ aside .content-wrapper .form {
 }
 
 .contact-section .content-wrapper h2 {
-    margin-bottom: 
+    margin-bottom: 28px;
 }
 
-/*----------------------FAQ Page ---------------------- */
+/*--------------------Desktop Styles - FAQ Page -------------------- */
 
 .faq h2 {
   width: 100%;
 }
 
 .faq-content {
-  flex-basis: 
+  flex-basis: 430px;
 }
 
 }
