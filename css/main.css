@@ -169,6 +169,7 @@ footer {
 
 header {
   padding: 15px 0;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -203,6 +204,8 @@ header nav ul {
 
 footer {
   flex-direction: column;
+  background-color: #202322;
+  color: #e2e3ed;
 }
 
 footer .content-wrapper {
@@ -283,10 +286,12 @@ aside {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
 aside .content-wrapper {
-
+  
 }
 
 .form-description {
@@ -343,6 +348,8 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
+  color: #e2e3ed;
 }
 
 .reviews h2 {
