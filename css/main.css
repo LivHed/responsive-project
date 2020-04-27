@@ -364,10 +364,8 @@ aside {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
-}
-
-.mission-content {
-
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
 .map {
@@ -379,6 +377,8 @@ aside {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
+  color: #e2e3ed;
 }
 
 .contact-content p {
@@ -392,6 +392,8 @@ aside {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color :#527158;
+  color: #e2e3ed;
 }
 
 .faq h2 {
@@ -628,6 +630,7 @@ footer .copyright {
 
 .faq h2 {
   width: 100%;
+  font-size: 3em;
 }
 
 }
