@@ -107,35 +107,35 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  text-align: left;
 }
  
 ul, 
 ol {
-  list-style: none;
+  list-style-type: none;
 }
  
 a {
   color: #e2e3ed;
   text-decoration: none;
-  font-size: 1.1em;
   text-transform: uppercase;
-  font-weight: bold;
 }
  
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.2em;
+  font-size: 1.875em;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.8em;
+  font-size: 1.125em;
+  margin: 20px 0;
 }
  
 p {
-  font-size: 1.1em;
-  line-height: 24px;
+  font-size: 0.875em;
+  line-height: 1.285;
 }
  
 img {
@@ -151,15 +151,11 @@ address {
 }
  
 .content-wrapper {
- 
-}
-
-/*------------- Base Header - Footer Styles --------------*/
-
-.content-wrapper {
   width: 90%;
   margin: 50px 0;
 }
+
+/*------------- Base Header - Footer Styles --------------*/
 
 header, 
 footer {
@@ -185,6 +181,8 @@ header .content-wrapper {
 
 .header-divider {
   width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -203,13 +201,13 @@ header nav ul {
 
 /* Footer styles */
 
+footer {
+  flex-direction: column;
+}
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
-}
-
-.footer-content {
-
 }
 
 footer .contact {
