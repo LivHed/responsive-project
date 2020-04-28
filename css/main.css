@@ -698,7 +698,6 @@ footer .copyright {
 
 @media only screen and (min-width: 1200px) {
   
-  
 /*---------------Desktop styles - Homepage ---------------*/
 
 header {
@@ -709,9 +708,24 @@ header {
     max-width: 960px;
 }
 
+h2 {
+  font-size: 2.25em;
+}
+
+h3,
+h4 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.125em;
+    line-height: 1.333;
+}
+
 /* Hero */
 .hero-area h1 {
    width: 60%;
+   font-size: 3.75em;
 }
 
 /* Aside */
@@ -724,6 +738,10 @@ aside .content-wrapper .form {
    width: 30%;
 }
 
+.form-description p {
+  font-size: 1.125em;
+}
+
 /* Features */
 .features h2 {
    width: 90%;
@@ -734,8 +752,17 @@ aside .content-wrapper .form {
 }
 
 /* Reviews */ 
+
+.reviews h2 {
+  padding-bottom: 50px; 
+}
+
 .reviews article div {
    width: 42%;
+}
+
+footer h4 {
+  font-size: 1.875em;
 }
 
 /*------------------ Desktop Styles - About Page-------------------- */
@@ -743,20 +770,28 @@ aside .content-wrapper .form {
 .mission h2,
 .contact-section .content-wrapper h2 {
     width: 95%;
+    font-size: 3em;
 }
 
-.contact-section .content-wrapper h2 {
-    margin-bottom: 28px;
+.contact-content h4 {
+  font-size: 1.875em;
 }
 
 /*--------------------Desktop Styles - FAQ Page -------------------- */
 
 .faq h2 {
   width: 100%;
+  font-size: 3em;
 }
 
-.faq-content {
-  flex-basis: 430px;
+.faq h4 {
+  font-size: 1.4em;
+  line-height: 1;
+}
+
+.faq p {
+      font-size: 1.125em;
+      line-height: 1;
 }
 
 }
