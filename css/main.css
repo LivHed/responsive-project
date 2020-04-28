@@ -512,10 +512,20 @@ input[type=button] {
  
   /*----------Tablet styles - Homepage ----------*/
 
- /* Base styles */
+ /* General styles */
 .content-wrapper {
   max-width: 640px;
   margin: 100px 0;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
 }
 
  /* Header */
@@ -527,6 +537,10 @@ header {
 header .content-wrapper {
   width: 100%;
   justify-content: space-between;
+}
+
+header figure {
+  width: 30%;
 }
 
 header nav {
@@ -543,6 +557,12 @@ header nav ul {
 
  /* Hero Area */
 
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+}
+
  /* Aside */
 aside .content-wrapper {
    margin: 50px 0;
@@ -558,6 +578,11 @@ aside .content-wrapper .form {
 }
 
   /* Features */
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
 .features article {
   display: flex;
   align-items: center;
@@ -575,25 +600,44 @@ aside .content-wrapper .form {
   display: flex;
   justify-content: space-between;
 }
+
+.reviews h2 {
+  width: 85%;
+}
   
 .reviews article div {
   width: 49%;        
 }
 
-  /* Footer */
+.reviews h3 {
+  width: 75%;
+  margin: 0;
+}
+
+/* Footer */
 footer .content-wrapper {
   width: 65%;
   margin: 100px 0;
 }
   
-.footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 footer .contact {
   margin-bottom: 0;
+}
+
+footer h4 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+footer p {
+  line-height: 1.285;
 }
 
 footer .copyright {
@@ -636,6 +680,17 @@ footer .copyright {
 .faq h2 {
   width: 100%;
   font-size: 3em;
+}
+
+.faq h4 {
+  font-size: 1.4em;
+  line-height: 1.125;
+}
+
+
+.faq p {
+    font-size: .875em;
+    line-height: 1.125;
 }
 
 }
