@@ -145,12 +145,12 @@ p {
   line-height: 1.285;
 }
  
-img {
- 
+img { 
+	width: 100%;
 }
  
 figure {
- 
+        margin: 0;
 }
  
 address {
@@ -261,6 +261,9 @@ footer .copyright {
 /* Main headline and hero image */
 
 .hero-area {
+  background: url(../img/hero-background.jpg) center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -312,6 +315,8 @@ input[type=button] {
 /* Info about, features section */
 
 .features {
+  background: url('../img/grey-background.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
