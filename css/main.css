@@ -361,7 +361,7 @@ input[type=button] {
 }
 
 .reviews figure {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -376,6 +376,7 @@ input[type=button] {
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+  font-size: 1.2em;
 }
 
 /*-------------- Mobile Styles - About page ----------------*/
@@ -618,10 +619,19 @@ aside .content-wrapper .form {
   justify-content: space-between;
 }
 
+.reviews figure {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-right: 10px;
+}
+
 .reviews h2 {
   width: 85%;
 }
-  
+
 .reviews article div {
   width: 49%;        
 }
@@ -629,6 +639,7 @@ aside .content-wrapper .form {
 .reviews h3 {
   width: 75%;
   margin: 0;
+  font-size: 1.5em;
 }
 
 /* Footer */
