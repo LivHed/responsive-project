@@ -120,11 +120,6 @@ a {
   color: #e2e3ed;
   text-decoration: none;
 }
-
-/* h1 {
-  font-size: 3.75em;
-  font-weight: bold;
-}  */
  
 h2 {
   font-family: 'Poppins', sans-serif;
@@ -150,7 +145,7 @@ img {
 }
  
 figure {
-        margin: 0;
+  margin: 0;
 }
  
 address {
@@ -217,6 +212,7 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-left: 0;
 }
 
 header nav ul li {
