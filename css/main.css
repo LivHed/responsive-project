@@ -123,21 +123,21 @@ a {
  
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.25em;
-  font-weight: normal;
+  font-size: 1.875em;
+  font-weight: 500;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-size: 1.3em;
   margin: 20px 0;
-  font-weight: normal;
+  font-weight: 500;
 }
  
 p {
   font-size: 0.875em;
-  line-height: 1.285;
+  line-height: 1.29;
 }
  
 img { 
@@ -161,11 +161,11 @@ address {
 
 header, 
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #202322;
 }
 
 /* Header styles */
@@ -262,7 +262,7 @@ footer .copyright {
 
 /*-------------- Mobile Styles - Homepage ----------------*/
 
-/* Main headline and hero image */
+/* Hero Area */
 
 .hero-area {
   background: url(../img/hero-background.jpg) center no-repeat #333;
@@ -280,7 +280,7 @@ footer .copyright {
   line-height: 1.2; 
 }
 
-/* Newsletter signup section */
+/* Aside */
 
 aside {
   display: flex;
@@ -316,7 +316,7 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-/* Info about, features section */
+/* Features */
 
 .features {
   background: url('../img/grey-background.jpg') center no-repeat #333;
@@ -351,13 +351,13 @@ input[type=button] {
 
 }
 
-/* Previous retreats section */
+/* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: #2a423a;
 }
 
 .reviews figure {
@@ -386,11 +386,11 @@ footer h4 {
 /*-------------- Mobile Styles - About page ----------------*/
 
 .mission {
+  background-color: #527158;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: #527158;
 }
 
 .map {
@@ -398,11 +398,11 @@ footer h4 {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -412,11 +412,11 @@ footer h4 {
 /*-------------- Mobile Styles - FAQ page ----------------*/
 
 .faq {
+  background-color :#527158;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
-  background-color :#527158;
 }
 
 .faq h2 {
@@ -578,6 +578,9 @@ header nav ul {
 }
 
  /* Hero Area */
+.hero-area {
+  min-height: 600px;
+}
 
 .hero-area h1 {
   font-size: 3em;
@@ -599,7 +602,7 @@ aside .content-wrapper .form {
   margin: 0;
 }
 
-  /* Features */
+/* Features */
 
 .features h2 {
     margin-bottom: 20px;
@@ -617,18 +620,14 @@ aside .content-wrapper .form {
    width: 62%;
 }
 
-  /* Reviews */
+/* Reviews */
 .reviews article {
   display: flex;
   justify-content: space-between;
 }
 
-.reviews figure {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+.reviews article figure {
+  width: 49%;
   padding-right: 10px;
 }
 
@@ -727,13 +726,15 @@ footer .copyright {
 
 }
 
-
 @media only screen and (min-width: 1200px) {
-  
 /*---------------Desktop styles - Homepage ---------------*/
 
 header {
   padding: 15px 0;
+}
+
+.hero-area {
+  min-height: 775px;
 }
 
 .content-wrapper {
@@ -756,7 +757,7 @@ p {
 
 /* Hero */
 .hero-area h1 {
-   width: 60%;
+   width: 80%;
    font-size: 3.75em;
 }
 
@@ -784,7 +785,6 @@ aside .content-wrapper .form {
 }
 
 /* Reviews */ 
-
 .reviews h2 {
   padding-bottom: 50px; 
 }
