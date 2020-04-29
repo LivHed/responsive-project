@@ -457,6 +457,11 @@ footer h4 {
   line-height: 1.333;
 }
 
+.faq-image img {
+  margin-bottom: 25px;
+  border-radius: 2%;
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -726,9 +731,20 @@ footer .copyright {
   justify-content: space-between;
 }
 
-.faq-content {
+/* .faq-content {
   flex-basis: 45%;
+}  */
+
+.faq-image {
+  width: 60%;
+  margin-bottom: 40px;
+  padding-left: 130px;
 }
+
+/* .faq-image img {
+  display: flex;
+  justify-content: center;
+} */
 
 .faq h2 {
   width: 100%;
@@ -850,6 +866,12 @@ footer h4 {
 .faq p {
       font-size: 1.125em;
       line-height: 1;
+}
+
+.faq-image {
+  width: 40%;
+  margin-bottom: 40px;
+  padding-left: 0;
 }
 
 }
