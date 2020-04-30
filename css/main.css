@@ -391,11 +391,15 @@ footer h4 {
 /*-------------- Mobile Styles - About page ----------------*/
 
 .mission {
-  background-color: #527158;
+  background: url('../img/mission-team.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.mission-content p {
+  font-weight: 700;
 }
 
 .map figure {
@@ -849,6 +853,11 @@ footer h4 {
 
 .contact-content h4 {
   font-size: 1.875em;
+}
+
+.mission-content p {
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 /*--------------------Desktop Styles - FAQ Page -------------------- */
