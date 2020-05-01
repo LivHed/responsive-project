@@ -358,10 +358,6 @@ input[type=button] {
         margin-bottom: 40px;
 }
 
-.fontawesome-icon {
-
-}
-
 /* Reviews */
 
 .reviews {
@@ -729,7 +725,6 @@ footer .copyright {
   padding-bottom: 45.5%; 
 }
 
-
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -746,20 +741,11 @@ footer .copyright {
   justify-content: space-between;
 }
 
-/* .faq-content {
-  flex-basis: 45%;
-}  */
-
 .faq-image {
   width: 60%;
   margin-bottom: 40px;
   padding-left: 130px;
 }
-
-/* .faq-image img {
-  display: flex;
-  justify-content: center;
-} */
 
 .faq h2 {
   width: 100%;
