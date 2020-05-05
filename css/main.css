@@ -120,6 +120,7 @@ a {
   color: #e2e3ed;
   text-decoration: none;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .lastnavitem {
@@ -266,6 +267,10 @@ footer .social-icons p i {
   font-size: 1.3125em;
 }
 
+footer .social-icons p i:hover {
+  color: #94d3ac;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
@@ -325,6 +330,7 @@ input[type=button] {
   border: none;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* Features */
