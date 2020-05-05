@@ -119,6 +119,11 @@ ol {
 a {
   color: #e2e3ed;
   text-decoration: none;
+  margin-right: 10px;
+}
+
+.lastnavitem {
+  margin-right: 0;
 }
  
 h2 {
@@ -594,7 +599,7 @@ header figure {
 }
 
 header nav {
-  width: 20%;
+  width: 30%;
 }
 
 header nav ul {
